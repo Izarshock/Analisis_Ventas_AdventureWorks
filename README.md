@@ -12,10 +12,10 @@ Este proyecto demuestra la capacidad de transformar datos transaccionales brutos
 
 El objetivo fue identificar los territorios de venta de mayor rendimiento para optimizar la asignación de recursos.
 
-1.  **Extracción y Modelado:** Se desarrollaron consultas **SQL** complejas (`JOINs` y `GROUP BY`) para consolidar las 31,000+ transacciones de ventas y calcular el Ingreso Total.
-2.  Limpieza de Datos: Se implementó un script de **Python/Pandas** para la conexión dinámica y la **limpieza de cadenas** (`.str.title()`), asegurando la estandarización de las categorías para un análisis preciso.
-3.  **Resultado y Visualización:** El análisis final en **Power BI** demostró que el territorio **Southwest** fue el líder indiscutible, generando **$27.1 millones** en ingresos.
-
+1.  **Extracción de Datos:** Se desarrollaron consultas **SQL** complejas (`JOINs`) para extraer las 31,465 transacciones de ventas brutas (Total Revenue y Sales Territory) de las tablas `SalesOrderHeader` y `SalesTerritory`.
+2.  **Procesamiento y Agregación:** Se implementó un script de **Python/Pandas** para la **conexión dinámica** con la base de datos, cargando los datos en un DataFrame y **agregando** el Ingreso Total (`.groupby().sum()`) por territorio.
+3.  **Resultado y Visualización:** El análisis final en **Power BI** demostró que el territorio **Southwest** fue el líder indiscutible,                     generando **$27.1 millones** en ingresos.
+4.  
 --- Visualización Clave ---
 
 El gráfico de columnas final confirma el rendimiento.
