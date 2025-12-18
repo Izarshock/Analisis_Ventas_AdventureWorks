@@ -6,7 +6,7 @@ This project demonstrates the ability to transform raw transactional data from a
 The SQL Server backup file (.bak) is required to restore the database environment. Due to its size, it is hosted on Google Drive.
 
 You can download it here:
-**[Download AdventureWorks.bak from Google Drive](https://drive.google.com/file/d/1FkFrkyaxOl_HakqhVYSE8Q8RYS7LL4mX/view?usp=drive_link)**
+**(https://drive.google.com/file/d/1FkFrkyaxOl_HakqhVYSE8Q8RYS7LL4mX/view?usp=drive_link)**
 
 Note: After downloading, use SQL Server Management Studio (SSMS) to restore the database.
 The dataset used in this analysis is the Online Retail dataset. Due to GitHub's file size limitations, the raw .csv file is not included in this repository.
