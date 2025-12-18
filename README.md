@@ -1,5 +1,3 @@
-Esta es la versión profesional en inglés para tu portafolio de GitHub o LinkedIn. He ajustado el tono para que suene técnico y orientado a resultados, tal como se espera en la industria de datos.
-
 Sales Performance Analysis by Territory
 This project demonstrates the ability to transform raw transactional data from an ERP system (AdventureWorks) into actionable business intelligence using industry-standard tools.
 
