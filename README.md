@@ -1,4 +1,5 @@
-Sales Performance Analysis by Territory
+***Sales Performance Analysis by Territory***
+
 This project demonstrates the ability to transform raw transactional data from an ERP system (AdventureWorks) into actionable business intelligence using industry-standard tools.
 
 --- Key Tools ---
