@@ -1,23 +1,25 @@
-Análisis de Rendimiento de Ventas por Territorio
+Esta es la versión profesional en inglés para tu portafolio de GitHub o LinkedIn. He ajustado el tono para que suene técnico y orientado a resultados, tal como se espera en la industria de datos.
 
-Este proyecto demuestra la capacidad de transformar datos transaccionales brutos del sistema ERP (AdventureWorks) en inteligencia de negocio procesable, utilizando herramientas estándar de la industria.
+Sales Performance Analysis by Territory
+This project demonstrates the ability to transform raw transactional data from an ERP system (AdventureWorks) into actionable business intelligence using industry-standard tools.
 
---- Herramientas Clave ---
+--- Key Tools ---
+Data Modeling: SQL (SQL Server Management Studio)
 
-* **Modelado de Datos:** SQL (Server Management Studio)
-* **Procesamiento y Calidad de Datos:** Python (Pandas, pyodbc)
-* **Visualización:** Power BI
+Data Processing & Quality: Python (Pandas, pyodbc)
 
---- Resumen Ejecutivo ---
+Visualization: Power BI
 
-El objetivo fue identificar los territorios de venta de mayor rendimiento para optimizar la asignación de recursos.
+--- Executive Summary ---
+The primary objective was to identify top-performing sales territories to optimize resource allocation and strategic planning.
 
-1.  **Extracción de Datos:** Se desarrollaron consultas **SQL** complejas (`JOINs`) para extraer las 31,465 transacciones de ventas brutas (Total Revenue y Sales Territory) de las tablas `SalesOrderHeader` y `SalesTerritory`.
-2.  **Procesamiento y Agregación:** Se implementó un script de **Python/Pandas** para la **conexión dinámica** con la base de datos, cargando los datos en un DataFrame y **agregando** el Ingreso Total (`.groupby().sum()`) por territorio.
-3.  **Resultado y Visualización:** El análisis final en **Power BI** demostró que el territorio **Southwest** fue el líder indiscutible, generando **$27.1 millones** en ingresos.
-   
---- Visualización Clave ---
+Data Extraction: Developed complex SQL queries (utilizing JOINs) to extract 31,465 raw sales transactions, specifically focusing on Total Revenue and Sales Territory from the SalesOrderHeader and SalesTerritory tables.
 
-El gráfico de columnas final confirma el rendimiento.
+Processing & Aggregation: Implemented a Python/Pandas script for dynamic database connection, loading the data into a DataFrame and aggregating Total Revenue (.groupby().sum()) by territory.
+
+Insights & Visualization: The final Power BI analysis identified the Southwest territory as the clear leader, generating $27.1 million in total revenue.
+
+--- Key Visualization ---
+The final column chart confirms the performance distribution across all territories.
 
 <img width="1203" height="720" alt="Grafico_PowerBI" src="https://github.com/user-attachments/assets/59b23798-957a-4b61-a2c9-a2186df4e9ac" />
